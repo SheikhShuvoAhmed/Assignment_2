@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.top_banner {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.top_banner_info {
+    color: rgb(255, 255, 255);
+    width: 40%;
+}
+
+.top_banner_info h1 {
+    font-size: 60px;
+}
+
+.top_banner_img {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.top_banner_img img {
+    width: 100%;
+}
+
+.top_banner_info_btn a {
+    background-color: rgb(221, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.top_banner_info_btn a:hover {
+    background-color: orange;
+    transition: all 0.3s ease 0s;
+}
+
+.top_banner_info_btn {
+    margin-top: 35px;
+}
+
+.features {
+    margin: 50px 0px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.feature_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.feature_menu {
+    background-color: rgb(22, 22, 22);
+    margin-right: 20px;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.feature_menu ul {
+    margin: 0px;
+    padding: 0px 0px 10px;
+}
+
+.feature_menu ul li {
+    list-style: none;
+    margin-bottom: 39px;
+    padding: 10px 20px;
+}
+
+.feature_menu a {
+    width: 203px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 23px;
+    border-radius: 10px;
+}
+
+#red {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+
+.btn a {
+    text-decoration: none;
+    border: 1px solid aqua;
+    padding: 5px 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.blog_img img {
+    width: 100%;
+}
+
+span {
+    margin-right: 50px;
+}
+
+/* footer style start  */
+footer {
+
+    padding-bottom: 100px;
+}
+
+#container {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+footer h1 {
+    color: #ffffff;
+    text-align: center;
+
+}
+
+hr {
+    border: 1px solid darksalmon;
+    width: 80%;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10 auto;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.footer_menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.goal_text {
+    padding-top: 40px;
+}
+
+.footer_social {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.footer_social a {
+    color: #ffffff;
+    padding: 30px;
+    font-size: 20px;
+}
+
+/* footer style end  */
